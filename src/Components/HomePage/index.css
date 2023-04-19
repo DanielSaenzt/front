@@ -1,0 +1,119 @@
+body{
+    height: 2800px;
+}
+.home-first-container{
+    display: flex;
+    width: 100%;
+    height: 868px;
+}
+
+.home-first-container-title-images{
+    height: 100%;
+    width: 70%;
+}
+
+.home-first-container-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    height: 35%;
+    width: 100%;
+    font-size: 80px;
+    color: #CA348B;
+}
+.home-first-container-title-principal{
+    width: 70%;
+}
+
+.home-first-container-images{
+    height: 65%;
+}
+
+.home-first-container-none{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #148768;
+    width: 30%;
+    height: 100%;
+}
+
+.home-image{
+    background-color: #148768;
+    width: 100%;
+    position: relative;
+    top: 40px; right: 0px;
+}
+
+.home-second-container, .home-third-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.home-second-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #FFFFFF;;
+    width: 100%;
+    height: 837px;
+}
+.home-second-container-title, .home-third-container-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 64px;
+    justify-items: center;
+    width: 100%;
+    background-color: #148768;
+    height: 15%;
+}
+
+.home-second-container-title > span, .home-third-container-title > span{
+    background-color: #148768;
+    color: #FFFFFF;
+}
+
+.home-second-container-description{
+    width: 95%;
+    background-color: rgba(23, 108, 89, 0.12);
+    border-radius: 70px;
+    padding: 2%;
+    margin-top: 1%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-second-container-description > p{
+    border-radius: 70px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: #176C59;
+    background-color: rgba(23, 108, 89, 0);
+    
+}
+
+.home-second-container-achievement{
+    margin-top: 1%;
+    width: 100%;
+    height: 320px;
+    background-color: black;
+}
+
+.home-third-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #FFFFFF;;
+    width: 100%;
+    height: 600px;
+}

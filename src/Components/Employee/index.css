@@ -1,0 +1,32 @@
+.employee{
+    width: 364px;
+    height: 435px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.employee-image{
+    align-self: center;
+    width: 274px;
+    height: 270px;
+    border-radius: 200px 200px 200px 200px;
+    background-size: 274px 270px;
+}
+
+.employee-name{
+    width: 80%;
+}
+.employee-name > p{
+    color: #158768;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+}
+
+.employee-position > p{
+    color: #303A2F;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}

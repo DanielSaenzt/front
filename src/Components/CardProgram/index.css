@@ -1,0 +1,76 @@
+.card-program-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+
+.card-program-container-container{
+    width: 100%;
+    height: 80%;
+
+}
+
+.card-program-container-container-image{
+    width: 100%;
+    height: 100%;
+}
+
+
+.carousel .slider-wrapper{
+    height: 564px;
+}
+
+.control-dots{
+    opacity: 0;
+}
+
+.card-program-container-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    bottom: 0%;
+    width: 90%;
+    height: 35%;
+    box-shadow: 0px 5px 5px -1px rgba(0,0,0,0.33);
+    
+}
+.card-program-container-text-title{
+    margin-top: 1%;
+    color: #003047;
+    display: flex;
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    justify-content: flex-start;
+    width: 90%;
+    height: 30%;
+    margin-left: 5%;
+}
+.card-program-container-text-description{
+    color: #3E5675;
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    justify-content: flex-start;
+    opacity: 0.9;
+    width: 90%;
+    height: 70%;
+    margin-left: 5%;
+}
+
+.card-program-container-text-description > p{
+    width: 100%;
+    height: 100%;
+}
+
+

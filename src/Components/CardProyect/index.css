@@ -1,0 +1,72 @@
+.card-proyect-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.card-proyect-container-image{
+    width: 90%;
+    height: 90%;
+}
+
+
+.card-proyect-container-text-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 2%;
+    width: 40%;
+    height: 70%;
+    box-shadow: 0px 5px 5px -1px rgba(0,0,0,0.33);  
+}
+
+.card-proyect-container-text-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 2%;
+    width: 40%;
+    height: 70%;
+    box-shadow: 0px 5px 5px -1px rgba(0,0,0,0.33);  
+}
+.card-proyect-container-text-title{
+    margin-top: 3%;
+    color: #003047;
+    display: flex;
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    justify-content: flex-start;
+    width: 90%;
+    height: 15%;
+    margin-left: 5%;
+}
+.card-proyect-container-text-description{
+    color: #3E5675;
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    justify-content: flex-start;
+    opacity: 0.9;
+    width: 90%;
+    height: 50%;
+    margin-left: 5%;
+}
+
+.card-proyect-container-text-description > p{
+    width: 100%;
+    height: 100%;
+}
+
+
